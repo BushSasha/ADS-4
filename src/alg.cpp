@@ -30,7 +30,7 @@ int countPairs2(int *arr, int len, int value) {
   return count2;
 }
 
-int binarySecondSearch(int *arr, int left, int right, int target) {
+int binarySecondSearch(int *arr, int low, int high, int target) {
   int first = -1;
   int left = low, right = high;
   while (left <= right) {
